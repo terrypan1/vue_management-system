@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        background: rgb(133, 221, 133);
+        transform: translateY(-5px);
+    }
+}
+body{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 30px;
+}

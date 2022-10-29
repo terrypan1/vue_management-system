@@ -1,0 +1,26 @@
+{
+  "name": "vue_test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "start": "json-server --watch db.json --port 3004",
+    "license": "MIT"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "http": "^0.0.1-security",
+    "json-server": "^0.16.1",
+    "pinia": "^2.0.21",
+    "pinia-plugin-persistedstate": "^2.3.0",
+    "sass": "^1.55.0",
+    "vue": "^3.2.38",
+    "vue-nprogress": "^0.2.0",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.9"
+  }
+}
